@@ -1,0 +1,48 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+   "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/index.js",
+    "build": "echo \"Error: no build specified\" && exit 1",
+    "lint": "prettier --write .",
+    "format": "prettier --write .",
+    "test:watch": "echo \"Error: no test specified\" && exit 1",
+    "test:ci": "echo \"Error: no test specified\" && exit 1",
+    "test:coverage": "echo \"Error: no test specified\" && exit 1",
+    "test:debug": "echo \"Error: no test specified\" && exit 1",
+    "test:unit": "echo \"Error: no test specified\" && exit 1",
+    "test:integration": "echo \"Error: no test specified\" && exit 1",
+    "test:e2e": "echo \"Error: no test specified\" && exit 1",
+    "test:performance": "echo \"Error: no test specified\" && exit 1",
+    "test:smoke": "echo \"Error: no test specified\" && exit 1",
+    "test:regression": "echo \"Error: no test specified\" && exit 1",
+    "test:acceptance": "echo \"Error: no test specified\" && exit 1",
+    "test:functional": "echo \"Error: no test specified \" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "multer": "^2.0.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
+}
